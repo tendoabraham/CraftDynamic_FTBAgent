@@ -232,57 +232,57 @@ class ModuleUtil {
         }
       case ModuleId.VIEWBENEFICIARY:
         {
-          // CommonUtils.navigateToRoute(
-          //     context: context,
-          //     widget: ViewBeneficiary(moduleItem: moduleItem));
           CommonUtils.navigateToRoute(
-              context: context, widget: ViewBeneficiaries());
+              context: context,
+              widget: ViewBeneficiary(moduleItem: moduleItem));
+          // CommonUtils.navigateToRoute(
+          //     context: context, widget: ViewBeneficiaries());
           break;
         }
       case ModuleId.STANDINGORDERVIEWDETAILS:
         {
-          CommonUtils.navigateToRoute(
-              context: context, widget: StandingOrderScreen());
           // CommonUtils.navigateToRoute(
-          //     context: context,
-          //     widget: ViewStandingOrder(moduleItem: moduleItem));
+          //     context: context, widget: StandingOrderScreen());
+          CommonUtils.navigateToRoute(
+              context: context,
+              widget: ViewStandingOrder(moduleItem: moduleItem));
           break;
         }
       case ModuleId.LOANLPAYMENT:
         {
           {
-            CommonUtils.navigateToRoute(
-                context: context, widget: LoanRepayment());
+            // CommonUtils.navigateToRoute(
+            //     context: context, widget: LoanRepayment());
             break;
           }
         }
       case ModuleId.ADDBENEFICIARY:
         {
           {
-            CommonUtils.navigateToRoute(
-                context: context, widget: AddBeneficiary());
+            // CommonUtils.navigateToRoute(
+            //     context: context, widget: AddBeneficiary());
             break;
           }
         }
       case ModuleId.QUICKPAY:
         {
           {
-            CommonUtils.navigateToRoute(context: context, widget: QuickPay());
+            // CommonUtils.navigateToRoute(context: context, widget: QuickPay());
             break;
           }
         }
       case ModuleId.RAOEXISTNGCUSTOMER:
         {
           {
-            CommonUtils.navigateToRoute(
-                context: context, widget: RAOExistingCustomerScreen());
+            // CommonUtils.navigateToRoute(
+            //     context: context, widget: RAOExistingCustomerScreen());
             break;
           }
         }
       case ModuleId.MTNDATA:
         {
           {
-            CommonUtils.navigateToRoute(context: context, widget: Data());
+            // CommonUtils.navigateToRoute(context: context, widget: Data());
             break;
           }
         }
