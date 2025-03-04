@@ -16,9 +16,11 @@ import 'package:dio/dio.dart';
 import 'package:encrypt/encrypt.dart';
 import 'package:flutter/foundation.dart' hide Key;
 import 'package:flutter/services.dart';
+import 'package:flutter_native_contact_picker/flutter_native_contact_picker.dart';
+import 'package:flutter_native_contact_picker/model/contact.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:fluttercontactpicker/fluttercontactpicker.dart'
-    hide PhoneNumber;
+// import 'package:fluttercontactpicker/fluttercontactpicker.dart'
+//     hide PhoneNumber;
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart' hide Response;
 import 'package:hive_flutter/adapters.dart';
