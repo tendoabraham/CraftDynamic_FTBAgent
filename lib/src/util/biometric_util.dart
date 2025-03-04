@@ -14,9 +14,9 @@ class BioMetricUtil {
           AndroidAuthMessages(
               signInTitle: 'Login',
               biometricHint: "Login to your ${APIService.appLabel} account"),
-          const IOSAuthMessages(
-            cancelButton: 'No thanks',
-          ),
+          // const IOSAuthMessages(
+          //   cancelButton: 'No thanks',
+          // ),
         ],
         options:
             const AuthenticationOptions(biometricOnly: true, stickyAuth: true),

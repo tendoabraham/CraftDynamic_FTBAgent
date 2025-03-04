@@ -4,7 +4,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:craft_dynamic/src/util/widget_util.dart';
 import 'package:flutter/material.dart';
 import 'package:craft_dynamic/craft_dynamic.dart';
-import 'package:pinput/pinput.dart';
 
 class ListWidget extends StatelessWidget {
   ListWidget(

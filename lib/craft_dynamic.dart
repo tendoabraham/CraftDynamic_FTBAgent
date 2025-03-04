@@ -25,7 +25,7 @@ import 'package:hive_flutter/adapters.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:local_auth/local_auth.dart';
 import 'package:local_auth_android/local_auth_android.dart';
-import 'package:local_auth_ios/local_auth_ios.dart';
+// import 'package:local_auth_ios/local_auth_ios.dart';
 import 'package:local_session_timeout/local_session_timeout.dart'
     hide SessionTimeoutState, SessionTimeoutManager;
 import 'dart:math';
